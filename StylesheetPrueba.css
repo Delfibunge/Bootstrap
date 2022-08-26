@@ -1,0 +1,43 @@
+/*Fuentes personalizadas*/
+@font-face {
+	font-family: 'Helvetica Cond Light';
+	src: url(fuentes/HelveticaLTStd-LightCond.otf)
+}
+
+@font-face {
+	font-family: 'Helvetica Cond Bold';
+	src: url(fuentes/HelveticaLTStd-BlkCond.otf);
+}
+img {
+	width: 100%;
+}
+body {
+    font-family: 'Helvetica Cond Light';
+    font-size: 25px;
+    background-color: rgb(229, 206, 206)
+}
+.navbar-brand {
+   width: 200px;
+}
+#comprasegura {
+    height: 150px;
+    align-items: center;
+}
+#productos {
+    font-family: 'Helvetica Cond Light';
+    font-size: 30px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#conacto {
+    justify-content: center;
+}
+a:visited {
+    color: grey;
+    text-decoration: none;
+}
+a:hover {
+    cursor: pointer;
+}

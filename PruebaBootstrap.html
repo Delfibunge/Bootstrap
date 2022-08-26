@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="StylesheetPrueba.css">
+</head>
+<body>
+     <!-- Barra navegadora -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="LOGO.png" alt="Logo Marca">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="PruebaBootstrap.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.instagram.com/delfinabungedeco/" target="_blank">Instagram </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Información
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://delfinabungedeco.com.ar/productos" target="_blank">Productos</a></li>
+                  <li><a class="dropdown-item" href="Contacto.html" target="_blank">Contacto</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="¿Qué buscás?" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- fin barra navegadora -->
+    <!-- Carousel de imagenes -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="banner1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="banner2.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+      <!-- ------------fin carousel de imagenes------------------- -->
+
+    <!-- columnas con información sobre compraa -->
+    <div class="container text-center" style="background-color: rgb(229, 206, 206)";>
+        <div class="row" id="comprasegura">
+            <div class="col-4" style="border-right: 1px solid grey">CUOTAS SIN INTERÉS</div>
+            <div class="col-4" style="border-right: 1px solid grey">ENVÍOS A TODO EL PAÍS</div>
+            <div class="col-4">COMPRA SEGURA</div>
+        </div>
+    </div>
+    <!-- fin columnas con informacion sobre comppra -->
+
+   <!-- fotos con productos -->   
+<div class="container text-center" id="productos" style="background-color: white";>PRODUCTOS</div>
+    <div class="Imagenes">
+        <div class="container text-center" style="background-color: white";>
+            <div class="row">
+                <div class="col-4">Almohadones
+                <img src="ALMOHADONES.jpg" alt="Almohadones">
+                </div>
+                <div class="col-4">Contenedores
+                <img src="CONTENEDORES.jpg" alt="Contenedores">
+                </div>
+                <div class="col-4">Tazas
+                <img src="Taza.jpg" alt="">
+                </div>
+            </div>
+    </div>
+</div>
+    <!-- fin fotos con productos  -->
+    <hr class="LineaHorizontal"></div>
+    <div class="container text-center" id="Contacto" style="background-color: white";>
+        <a href="Contacto.html" target="_blank">Contacto</a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
